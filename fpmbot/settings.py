@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '0!^kmf!qj5)m^7mqa#oe+e)_4i@hxq$5po21y35xw-=@xrf2_y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fpmbot.herokuapp.com']
 
 
 # Application definition
