@@ -1,1 +1,1 @@
-web: gunicorn fpmbot.fpmbot.wsgi
+web: gunicorn fpmbot.wsgi
